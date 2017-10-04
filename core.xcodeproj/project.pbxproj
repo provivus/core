@@ -21,7 +21,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_100 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* Package.swift */; };
 		OBJ_106 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ArrayTests.swift */; };
 		OBJ_107 /* BlackBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* BlackBoxTests.swift */; };
 		OBJ_108 /* CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* CacheTests.swift */; };
@@ -66,28 +65,7 @@
 		OBJ_161 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Debugging::Debugging::Product" /* Debugging.framework */; };
 		OBJ_162 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Bits::Bits::Product" /* Bits.framework */; };
 		OBJ_163 /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::libc::Product" /* libc.framework */; };
-		OBJ_171 /* Debuggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Debuggable.swift */; };
-		OBJ_177 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Aliases.swift */; };
-		OBJ_178 /* Base64Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Base64Encoder.swift */; };
-		OBJ_179 /* Byte+Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Byte+Alphabet.swift */; };
-		OBJ_180 /* Byte+ControlCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Byte+ControlCharacters.swift */; };
-		OBJ_181 /* Byte+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Byte+Convenience.swift */; };
-		OBJ_182 /* Byte+PatternMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Byte+PatternMatching.swift */; };
-		OBJ_183 /* Byte+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Byte+Random.swift */; };
-		OBJ_184 /* Byte+UTF8Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Byte+UTF8Numbers.swift */; };
-		OBJ_185 /* ByteSequence+Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* ByteSequence+Conversions.swift */; };
-		OBJ_186 /* Bytes+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* Bytes+Base64.swift */; };
-		OBJ_187 /* Bytes+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Bytes+Hex.swift */; };
-		OBJ_188 /* Bytes+Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Bytes+Percent.swift */; };
-		OBJ_189 /* BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* BytesConvertible.swift */; };
-		OBJ_190 /* Data+BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Data+BytesConvertible.swift */; };
-		OBJ_191 /* HexEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* HexEncoder.swift */; };
-		OBJ_192 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* Operators.swift */; };
-		OBJ_193 /* String+BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* String+BytesConvertible.swift */; };
-		OBJ_194 /* UnsignedInteger+BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* UnsignedInteger+BytesConvertible.swift */; };
-		OBJ_195 /* UnsignedInteger+Shifting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* UnsignedInteger+Shifting.swift */; };
 		OBJ_201 /* libc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* libc.swift */; };
-		OBJ_94 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,7 +130,7 @@
 /* Begin PBXFileReference section */
 		"Bits::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::CoreTests::Product" /* CoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::CoreTests::Product" /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Core::libc::Product" /* libc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Debugging::Debugging::Product" /* Debugging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Debugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_11 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -192,28 +170,6 @@
 		OBJ_47 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		OBJ_48 /* UnsignedIntegerChunkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsignedIntegerChunkingTests.swift; sourceTree = "<group>"; };
 		OBJ_49 /* UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityTests.swift; sourceTree = "<group>"; };
-		OBJ_53 /* Debuggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debuggable.swift; sourceTree = "<group>"; };
-		OBJ_54 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/joohan/provivus/mvn/core/.build/checkouts/debugging.git-4365319567167379684/Package.swift"; sourceTree = "<group>"; };
-		OBJ_57 /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
-		OBJ_58 /* Base64Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64Encoder.swift; sourceTree = "<group>"; };
-		OBJ_59 /* Byte+Alphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte+Alphabet.swift"; sourceTree = "<group>"; };
-		OBJ_60 /* Byte+ControlCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte+ControlCharacters.swift"; sourceTree = "<group>"; };
-		OBJ_61 /* Byte+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte+Convenience.swift"; sourceTree = "<group>"; };
-		OBJ_62 /* Byte+PatternMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte+PatternMatching.swift"; sourceTree = "<group>"; };
-		OBJ_63 /* Byte+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte+Random.swift"; sourceTree = "<group>"; };
-		OBJ_64 /* Byte+UTF8Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte+UTF8Numbers.swift"; sourceTree = "<group>"; };
-		OBJ_65 /* ByteSequence+Conversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteSequence+Conversions.swift"; sourceTree = "<group>"; };
-		OBJ_66 /* Bytes+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bytes+Base64.swift"; sourceTree = "<group>"; };
-		OBJ_67 /* Bytes+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bytes+Hex.swift"; sourceTree = "<group>"; };
-		OBJ_68 /* Bytes+Percent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bytes+Percent.swift"; sourceTree = "<group>"; };
-		OBJ_69 /* BytesConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BytesConvertible.swift; sourceTree = "<group>"; };
-		OBJ_70 /* Data+BytesConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+BytesConvertible.swift"; sourceTree = "<group>"; };
-		OBJ_71 /* HexEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexEncoder.swift; sourceTree = "<group>"; };
-		OBJ_72 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		OBJ_73 /* String+BytesConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BytesConvertible.swift"; sourceTree = "<group>"; };
-		OBJ_74 /* UnsignedInteger+BytesConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnsignedInteger+BytesConvertible.swift"; sourceTree = "<group>"; };
-		OBJ_75 /* UnsignedInteger+Shifting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnsignedInteger+Shifting.swift"; sourceTree = "<group>"; };
-		OBJ_76 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/joohan/provivus/mvn/core/.build/checkouts/bits.git-9196587591774126515/Package.swift"; sourceTree = "<group>"; };
 		OBJ_9 /* libc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,73 +285,9 @@
 			children = (
 				OBJ_7 /* Sources */,
 				OBJ_34 /* Tests */,
-				OBJ_50 /* Dependencies */,
 				OBJ_77 /* Products */,
 			);
 			sourceTree = "<group>";
-		};
-		OBJ_50 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_51 /* Debugging 1.1.0 */,
-				OBJ_55 /* Bits 1.1.0 */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		OBJ_51 /* Debugging 1.1.0 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_52 /* Debugging */,
-				OBJ_54 /* Package.swift */,
-			);
-			name = "Debugging 1.1.0";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_52 /* Debugging */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_53 /* Debuggable.swift */,
-			);
-			name = Debugging;
-			path = ".build/checkouts/debugging.git-4365319567167379684/Sources/Debugging";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_55 /* Bits 1.1.0 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_56 /* Bits */,
-				OBJ_76 /* Package.swift */,
-			);
-			name = "Bits 1.1.0";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_56 /* Bits */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_57 /* Aliases.swift */,
-				OBJ_58 /* Base64Encoder.swift */,
-				OBJ_59 /* Byte+Alphabet.swift */,
-				OBJ_60 /* Byte+ControlCharacters.swift */,
-				OBJ_61 /* Byte+Convenience.swift */,
-				OBJ_62 /* Byte+PatternMatching.swift */,
-				OBJ_63 /* Byte+Random.swift */,
-				OBJ_64 /* Byte+UTF8Numbers.swift */,
-				OBJ_65 /* ByteSequence+Conversions.swift */,
-				OBJ_66 /* Bytes+Base64.swift */,
-				OBJ_67 /* Bytes+Hex.swift */,
-				OBJ_68 /* Bytes+Percent.swift */,
-				OBJ_69 /* BytesConvertible.swift */,
-				OBJ_70 /* Data+BytesConvertible.swift */,
-				OBJ_71 /* HexEncoder.swift */,
-				OBJ_72 /* Operators.swift */,
-				OBJ_73 /* String+BytesConvertible.swift */,
-				OBJ_74 /* UnsignedInteger+BytesConvertible.swift */,
-				OBJ_75 /* UnsignedInteger+Shifting.swift */,
-			);
-			name = Bits;
-			path = ".build/checkouts/bits.git-9196587591774126515/Sources/Bits";
-			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
@@ -648,7 +540,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_171 /* Debuggable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,25 +547,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_177 /* Aliases.swift in Sources */,
-				OBJ_178 /* Base64Encoder.swift in Sources */,
-				OBJ_179 /* Byte+Alphabet.swift in Sources */,
-				OBJ_180 /* Byte+ControlCharacters.swift in Sources */,
-				OBJ_181 /* Byte+Convenience.swift in Sources */,
-				OBJ_182 /* Byte+PatternMatching.swift in Sources */,
-				OBJ_183 /* Byte+Random.swift in Sources */,
-				OBJ_184 /* Byte+UTF8Numbers.swift in Sources */,
-				OBJ_185 /* ByteSequence+Conversions.swift in Sources */,
-				OBJ_186 /* Bytes+Base64.swift in Sources */,
-				OBJ_187 /* Bytes+Hex.swift in Sources */,
-				OBJ_188 /* Bytes+Percent.swift in Sources */,
-				OBJ_189 /* BytesConvertible.swift in Sources */,
-				OBJ_190 /* Data+BytesConvertible.swift in Sources */,
-				OBJ_191 /* HexEncoder.swift in Sources */,
-				OBJ_192 /* Operators.swift in Sources */,
-				OBJ_193 /* String+BytesConvertible.swift in Sources */,
-				OBJ_194 /* UnsignedInteger+BytesConvertible.swift in Sources */,
-				OBJ_195 /* UnsignedInteger+Shifting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,7 +569,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_94 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,7 +576,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_100 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -808,6 +678,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Core;
 			};
@@ -830,6 +701,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Core;
 			};
@@ -1006,7 +878,7 @@
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
@@ -1030,7 +902,7 @@
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				USE_HEADERMAP = NO;
